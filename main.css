@@ -6,19 +6,37 @@ body {
 .link {
     color: #fc1b1b;
 }
-.tittle {
+.title1 {
+    font-size: 48px;
+    color: #fc1b1b;
+}
+.title {
     font-size: 24px;
     color: #fc1b1b;
 }
 table {
     border-collapse: collapse;
     width: 100%;
+    background-color: #ff0000; 
 }
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #ff0000;
     padding: 8px;
     text-align: left;
+    background-color: #ff0000;
 }
-th {
-    background-color: hsl(0, 100%, 50%);
+
+.accordion-item {
+    background-color: #ff0000; 
+}
+
+.accordion-button {
+    color: #fc1b1b; 
+    background-color: #130bea; 
+}
+.card {
+    background-color: #fc1b1b
+}
+.scrollspy-example {
+    color: #fc1b1b;
 }
